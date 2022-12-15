@@ -1,0 +1,81 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background-color: #eeeeee;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.entreprise{
+	border: 2px solid pink;
+	text-align: center;
+	margin: 0 30% 0 30%
+}
+
+.connexion{ /*Bloc entier*/
+	background-color: #e3e3e3;
+	margin: 0 40% 0 40%;
+	border-radius: 40px;
+	text-align: center;
+	padding: 20px 20px 0 20px;
+}
+
+.infos{ /*Bloc de saisie des champs*/
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	border-radius: 100px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.infos .icon{ /*Icones*/
+	width: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	background-color: white;
+	padding-left: 6px;
+}
+
+.infos input{ /*Champs*/
+	width: 85%;
+	border: none;
+	border-left: 1px solid #cfcfcf;
+	outline: none;
+}
+
+#login, #password{ /*Ecriture dans les champs*/
+	font-size: 16px;
+	padding-left: 10px;
+	font-style: italic;
+	color: #939393;
+} 
+	
+#btn_connexion, #btn_inscription{ /*	Bouton de connexion	*/	
+	width: 220px;
+	height: 70px;
+	text-align: center;
+    line-height: 2.5;
+    padding: 0 35px 0 35px;
+    font-size: 21px;
+	margin-top: 6px;
+	margin-bottom: 15px;
+    border-radius: 70px;
+    background-color: white; 
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#btn_connexion:hover, #btn_inscription:hover { /*	Nouvelle couleur quand la souris est sur le bouton	*/
+    background-color: rgba(190, 195, 202, 1);
+	opacity: 0.9;
+	transition: 0.4s;
+}	
